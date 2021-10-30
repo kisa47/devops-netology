@@ -42,3 +42,4 @@ terraform.rc
 
 7. Файлы **.terraformrc** и **terraform.rc** в данной директории
 
+
