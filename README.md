@@ -17,12 +17,12 @@ remote: Total 251168 (delta 67), reused 53 (delta 28), pack-reused 251034
 └> cd terraform 
 ┌[kisa☮kisa-Lenovo-G40-30]-(~/terraform)-[git://main ✔]-
 └> 
-'''
+```
 
 ### Найдите полный хеш и комментарий коммита, хеш которого начинается на aefea.
 
-1. Комментарий: `Update CHANGELOG.md`
-2. Полная хеш-функция коммита: `aefead2207ef7e2aa5dc81a34aedf0cad4c32545`
+1. Комментарий: ```Update CHANGELOG.md```
+2. Полная хеш-функция коммита: ```aefead2207ef7e2aa5dc81a34aedf0cad4c32545```
 
 Как получил:
 ```
@@ -32,7 +32,7 @@ commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
 Update CHANGELOG.md
 ┌[kisa☮kisa-Lenovo-G40-30]-(~/terraform)-[git://main ✔]-
 └> 
-
+```
 Альтернативный вариант:
 ```
 ┌[kisa☮kisa-Lenovo-G40-30]-(~/terraform)-[git://main ✔]-
@@ -111,6 +111,7 @@ dd01a3507 Update CHANGELOG.md
 225466bc3 Cleanup after v0.12.23 release
 ```
 Как получил:
+
 ```
 ┌[kisa☮kisa-Lenovo-G40-30]-(~/terraform)-[git://main ✔]-
 └> git log v0.12.23..v0.12.24 --oneline
