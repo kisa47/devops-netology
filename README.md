@@ -173,7 +173,7 @@ touch {0-300000}
 
 ### Основываясь на знаниях о просмотре текущих (например, PATH) и установке новых переменных; командах, которые мы рассматривали, добейтесь в выводе type -a bash в виртуальной машине
 ```
-PATH=/tmp/new_path_directory:$PATCH
+PATH=/tmp/new_path_directory:$PATH
 mkdir -p /tmp/new_path_directory
 ln -s /bin/bash /tmp/new_path_directory/bash
 
