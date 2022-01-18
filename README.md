@@ -650,3 +650,5 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
 192.168.10.1             ether   00:1b:21:a6:98:b4   C                     eno1
 192.168.121.208          ether   52:54:00:49:78:5e   C                     virbr4
 ```
+
+Windows, просмотр ```arp -a```, очистить/удалить ```arp -d``` 
