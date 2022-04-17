@@ -76,3 +76,22 @@ ansible 2.9.6
 Так как в свете последних геополитических событий появились некоторые ограничения в работе продуктов, в том числе vagrant были преприняты шаги к обходу данных блокировок.
 
 Обход блокировки заключается в локальном хронении боксов. Для запуска vagrant выполняем [startvm.sh](startvm.sh).
+
+Интересующий нас вывод после выполнения команды docker ps:
+```
+==> server1.netology: Running provisioner: shell...
+    server1.netology: Running: inline script
+    server1.netology: CONTAINER ID
+    server1.netology:    
+    server1.netology: IMAGE
+    server1.netology:      
+    server1.netology: COMMAND
+    server1.netology:    
+    server1.netology: CREATED
+    server1.netology:    
+    server1.netology: STATUS
+    server1.netology:     
+    server1.netology: PORTS
+    server1.netology:      
+    server1.netology: NAMES
+```
