@@ -1,4 +1,5 @@
 - 5.2. [Применение принципов IaaC в работе с виртуальными машинами](05-virt-02-iaac/README.md)
 - 5.3. [Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера](05-virt-03-docker/README.md)
 - 5.4. [Оркестрация группой Docker контейнеров на примере Docker Compose](05-virt-04-docker-compose/README.md)
+- 5.5. [Оркестрация кластером Docker контейнеров на примере Docker Swarm](05-virt-05-docker-swarm/README.md)
 - 6.1. [Типы и структура СУБД](06-db-01-basics/README.md)
