@@ -1,0 +1,17 @@
+version: '2.1'
+
+services:
+  db:
+    build: .
+    container_name: mysql
+    restart: always
+    volumes:
+      - ./test_dump.sql:/var/lib/mysql-backup/test_dump.sql
+      - mysqldata:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: bazalt
+      MYSQL_DATABASE: mysql
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
+volumes:
+  mysqldata: {}

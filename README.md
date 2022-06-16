@@ -4,3 +4,4 @@
 - 5.5. [Оркестрация кластером Docker контейнеров на примере Docker Swarm](05-virt-05-docker-swarm/README.md)
 - 6.1. [Типы и структура СУБД](06-db-01-basics/README.md)
 - 6.2. [SQL](06-db-02-sql/REAME.md)
+- 6.3. [MySQL](./06-db-03-mysql/README.md)
