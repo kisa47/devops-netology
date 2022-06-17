@@ -1,0 +1,17 @@
+version: '2.1'
+
+services:
+
+  postgres:
+    build: .
+    container_name: psql
+    restart: always
+    volumes:
+      - psqldata:/var/lib/postgresql/data:rw
+      - ./test_dump.sql:/var/lib/postgresql-backup/test_dump.sql
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_PASSWORD=postgres
+
+volumes:
+  psqldata: {}
