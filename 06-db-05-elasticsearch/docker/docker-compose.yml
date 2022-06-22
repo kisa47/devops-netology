@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  elasticsearch:
+    image: surtsov/centos7-elasticsearch
+    container_name: elasticsearch
+    user: elasticsearch
+    volumes:
+      - type: bind
+        source: ./elasticsearch.yml
+        target: /opt/elasticsearch-8.2.3/config/elasticsearch.yml
+        read_only: true
+      - type: volume
+        source: snapshots
+        target: /opt/elasticsearch-8.2.3/snapshots
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+
+volumes:
+  snapshots: {}
