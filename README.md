@@ -8,3 +8,4 @@
 - 6.4. [PostgreSQL](06-db-04-postgresql/README.md)
 - 6.5. [Elasticsearch](06-db-05-elasticsearch/README.md)
 - 7.1. [Инфраструктура как код](07-terraform-01-intro/README.md)
+- 7.2. [Облачные провайдеры и синтаксис Terraform](07-terraform-02-syntax/README.md)
