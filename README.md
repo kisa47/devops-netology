@@ -9,3 +9,4 @@
 - 6.5. [Elasticsearch](06-db-05-elasticsearch/README.md)
 - 7.1. [Инфраструктура как код](07-terraform-01-intro/README.md)
 - 7.2. [Облачные провайдеры и синтаксис Terraform](07-terraform-02-syntax/README.md)
+- 7.3. [Основы и принцип работы Терраформ](07-terraform-03-basic/README.md)
