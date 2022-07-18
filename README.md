@@ -11,3 +11,4 @@
 - 7.2. [Облачные провайдеры и синтаксис Terraform](07-terraform-02-syntax/README.md)
 - 7.3. [Основы и принцип работы Терраформ](07-terraform-03-basic/README.md)
 - 7.4. [Основы golang](07-terraform-05-golang/README.md)
+- 7.5. [Написание собственных провайдеров для Terraform](07-terraform-06-providers/README.md)
