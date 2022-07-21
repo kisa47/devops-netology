@@ -12,3 +12,4 @@
 - 7.3. [Основы и принцип работы Терраформ](07-terraform-03-basic/README.md)
 - 7.4. [Основы golang](07-terraform-05-golang/README.md)
 - 7.5. [Написание собственных провайдеров для Terraform](07-terraform-06-providers/README.md)
+- 8.1. [Введение в Ansible](08-ansible-01-base/README.md)
