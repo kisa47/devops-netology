@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  elastic:
+    build: .
+    container_name: elastic
+    restart: unless-stopped
+    entrypoint: "sleep infinity"
+
+  kibana:
+    build: .
+    container_name: kibana
+    restart: unless-stopped
+    entrypoint: "sleep infinity"
